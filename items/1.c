@@ -46,11 +46,6 @@ printf("\n\nPorcentagem da votação feminina que responderam sim é: %.2f Porce
 printf("\n\nPorcentagem da votação masculina que responderam não é: %.2f Porcento ", porcentagem1); 
 printf("\n\n\n");
 
-if (total <150 && total >150)
-   
-printf("ERROR! O TOTAL DE PESSOAS NA PESQUISA É DE 150");
-
-
 return 0;
 
 }
