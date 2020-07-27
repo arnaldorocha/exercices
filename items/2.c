@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@arnaldorocha 
-arnaldorocha
-/
-exercices
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-exercices/items/2.c
-@arnaldorocha
-arnaldorocha Create 2.c
-Latest commit d739d28 now
- History
- 1 contributor
-95 lines (95 sloc)  3.59 KB
-  
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
