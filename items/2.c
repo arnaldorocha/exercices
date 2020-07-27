@@ -33,8 +33,7 @@ printf("\nDigite o consumo em KW : ");
 scanf_s("%d", &i[cadastro].consumo);
 }
 printf("\
-n_____________________________________________________________________________________
-______________");
+n___________________________________________________________________________________________________");
 printf("\nSeu nome é: %s", i[cadastro].nome);
 printf("\nParabéns você esta cadastrado!");
 printf("\n\nAgora vamos ver o total KW consumidos e o valor a pagar");
@@ -42,9 +41,7 @@ printf("\nDigite seu consumo em KW: ");
 scanf_s("%d", &consumo);//guarda valor digitado
 valor = (consumo) * 1.75; //valor correspondete a reais tem que ser float, determina o valor em reais do KW
 printf("\nSeu consumo é de %d KW e o valor a pagar será de %.2f Reais", consumo, valor); // imprimir resultado
-printf("\n\
-n_____________________________________________________________________________________
-____________");
+printf("\n\n_________________________________________________________________________________________________");
 printf("\n\nSão 10 contas: Tem que digitar o consumo em sua determinada conta");// imprimir instrução
 printf("\nPara saber qual é sua conta, apenas aguarde em forma crescente."); //imprimir instrução
 printf("\nEntão quando chegar na posição que escolheu conforme o numero de conta digite seu consumo."); // imprimir instrução
@@ -82,7 +79,7 @@ printf("\n\Contas que consumiram mais que 170KW: ");
 for (c = 0; c < 10; c++) {
 printf("\n\n%i ", consumidores[c] > 170); // imprimi os valores que forammaiores que 170 kw
 }
-printf("\n\nNúmero que corresponde ao 1 significa que é verdadeiro ou seja, ocampo que estiver 1 correspondente acima é maior que 170.");
+printf("\n\nNúmero que corresponde ao 1 significa que é verdadeiro ou seja, o campo que estiver 1 correspondente acima é maior que 170.");
 printf("\n\n\n");
 
 return 0;
