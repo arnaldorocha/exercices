@@ -45,9 +45,10 @@ printf("\n\nTotal de pessoas que votaram no não foi: %.f", F);
 printf("\n\nPorcentagem da votação feminina que responderam sim é: %.2f Porcento", porcentagem2);
 printf("\n\nPorcentagem da votação masculina que responderam não é: %.2f Porcento ", porcentagem1); 
 printf("\n\n\n");
-}
-
 
 return 0;
 
 }
+
+
+
