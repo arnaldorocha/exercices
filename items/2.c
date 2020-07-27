@@ -75,7 +75,7 @@ Mr = maior * 1.75;
 Mnr = menor * 1.75;
 printf("\n\nMaior valor: %.2f Reais - conta: %i", Mr, Maior + 1); // imprimi o resultado em reais do maior valor
 printf("\nMenor valor: %.2f Reais - conta: %i", Mnr, Menor + 1); // imprimi o esultado em reais do menor valor
-printf("\n\Contas que consumiram mais que 170KW: ");
+printf("\nContas que consumiram mais que 170KW: ");
 for (c = 0; c < 10; c++) {
 printf("\n\n%i ", consumidores[c] > 170); // imprimi os valores que forammaiores que 170 kw
 }
