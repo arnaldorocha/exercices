@@ -42,7 +42,7 @@ scanf_s("%d", &consumo);//guarda valor digitado
 valor = (consumo) * 1.75; //valor correspondete a reais tem que ser float, determina o valor em reais do KW
 printf("\nSeu consumo é de %d KW e o valor a pagar será de %.2f Reais", consumo, valor); // imprimir resultado
 printf("\n\n_________________________________________________________________________________________________");
-printf("\n\nSão 10 contas: Tem que digitar o consumo em sua determinada conta");// imprimir instrução
+printf("\n\nSão 10 contas: Os usuários cadastrados tem que digitar o consumo em sua determinada conta");// imprimir instrução
 printf("\nPara saber qual é sua conta, apenas aguarde em forma crescente."); //imprimir instrução
 printf("\nEntão quando chegar na posição que escolheu conforme o numero de conta digite seu consumo."); // imprimir instrução
 for (c = 0; c < 10; c++) { //preenche o vetor
